@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="menu">{{.Menu}}</div>
-	<div class="content">{{.Content}}</div>
+    <div class="menu">{{range .Menu}}<div><a href="{{.Path}}">{{.Text}}</a></div>{{end}}</div>
+	<div class="content">{{range .Pages}}<div class="{{.ID}}">{{.HTML}}</div>{{end}}</div>
 </body>
 </html>

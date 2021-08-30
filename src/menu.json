@@ -1,5 +1,5 @@
 [
-    { "text": "Home", "url": "/" },
-    { "text": "Schedule", "url": "/schedule" },
-    { "text": "Tickets", "url": "/tickets" }
+    { "text": "Home", "path": "/" },
+    { "text": "Schedule", "path": "/schedule" },
+    { "text": "Tickets", "path": "/tickets" }
 ]
