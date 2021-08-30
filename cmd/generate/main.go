@@ -53,7 +53,7 @@ type Site struct {
 
 type MenuItem struct {
 	Text string
-	Path string
+	Page string
 }
 
 type Page struct {
